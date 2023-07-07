@@ -29,7 +29,7 @@ const Content3 = () => {
                     />
                 </ShakeSlow>
             </div>
-            <div className="absolute text-2xl mt-[-250px] ml-[-50px] sm:ml-[-350px] sm:mt-0 md:text-3xl md:ml-[-440px] md:mt-[30px] lg:ml-[-500px] font-bold lg:text-5xl font-serif text-[#0A415E]">
+            <div className="absolute text-2xl mt-[-300px] ml-0 sm:ml-[-300px] sm:mt-0 md:text-3xl md:ml-[-380px] md:mt-[30px] lg:ml-[-500px] font-bold lg:text-5xl font-serif text-[#0A415E]">
                 <Collapse in={checked}>
                     <p>Kematian</p>
                 </Collapse>
@@ -37,7 +37,7 @@ const Content3 = () => {
                     <p>Akibat Udara Buruk</p>
                 </Collapse>
                 <Collapse in={checked}>
-                    <p className="text-xs sm:text-[10px] md:text-xs lg:text-base font-semibold">Lorem ipsum dolor sit amet.</p>
+                    <p className="text-xs sm:text-[10px] md:text-xs lg:text-base font-semibold">Kualitas udara yang buruk dapat menyebabkan berbagai <br/> macam penyakit pernafasan sehingga mengancam manusia.</p>
                 </Collapse>
             </div>
         </div>
